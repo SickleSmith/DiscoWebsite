@@ -1,0 +1,47 @@
+body{
+    background-image: url(/images/4394259_91657.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 500px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 3;
+    color: aqua;
+  }
+
+  .item2 {
+    grid-column: 4 / span 3
+  }
+
+  .item3 {
+    grid-column: 1 / span 3
+  }
+
+  .item4 {
+    grid-column: 4 / span 3
+  }
+
+  #jeffface{
+    width: 400px;
+  }
+
+  .maps{
+    width: 600px;
+    height: 450px;
+  }
+

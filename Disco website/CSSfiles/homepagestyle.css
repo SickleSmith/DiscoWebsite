@@ -1,0 +1,102 @@
+#content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    height: 600px;
+}
+
+body{
+    background-image: url(/images/musicbackground.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 5rem;
+    padding-top: 400px;
+}
+
+#rockpic{
+    width: 250px;
+    border-radius: 25px;
+}
+
+#reggaepic{
+    width: 250px;
+    border-radius: 25px;
+}
+
+#discopic{
+    width: 250px;
+    border-radius: 25px;
+}
+
+#h1size{
+    font-family: Reggae One, 'Courier New', Courier, monospace;
+    color: #a5791a;
+    font-style: italic;
+    -webkit-text-stroke: 1px rgb(100, 81, 81);
+    animation: typewriter 4s steps(77) normal;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+@keyframes typewriter {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+#discotext{
+    font-family: Reggae One, 'Courier New', Courier, monospace;
+    color: #a5791a;
+    font-style: italic;
+    -webkit-text-stroke: 1px rgb(100, 81, 81);
+}
+
+#reggaetext{
+    font-family: Reggae One, 'Courier New', Courier, monospace;
+    color: #a5791a;
+    font-style: italic;
+    -webkit-text-stroke: 1px rgb(100, 81, 81);
+}
+
+#rocktext{
+    font-family: Reggae One, 'Courier New', Courier, monospace;
+    color: #a5791a;
+    font-style: italic;
+    -webkit-text-stroke: 1px rgb(100, 81, 81);
+}
+
+.grid-item-1{
+    transition: 0.4s ease-in-out;
+}
+
+.grid-item-1:hover{
+    transform: scale(1.2);
+} 
+
+.grid-item-2{
+    transition: 0.4s ease-in-out;
+}
+
+.grid-item-2:hover{
+    transform: scale(1.2);
+} 
+
+.grid-item-3{
+    transition: 0.4s ease-in-out;
+}
+
+.grid-item-3:hover{
+    transform: scale(1.2);
+} 
